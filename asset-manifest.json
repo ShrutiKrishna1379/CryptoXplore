@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CryptoXplore/static/css/main.2a903c4f.css",
+    "main.js": "/CryptoXplore/static/js/main.87b51dce.js",
+    "index.html": "/CryptoXplore/index.html",
+    "main.2a903c4f.css.map": "/CryptoXplore/static/css/main.2a903c4f.css.map",
+    "main.87b51dce.js.map": "/CryptoXplore/static/js/main.87b51dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a903c4f.css",
+    "static/js/main.87b51dce.js"
+  ]
+}
