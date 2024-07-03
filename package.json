@@ -1,6 +1,6 @@
 {
   "homepage": "https://ShrutiKrishna1379.github.io/CryptoXplore",
-  "name": "my-app",
+  "name": "CryptoXplore",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://api.coingecko.com",
