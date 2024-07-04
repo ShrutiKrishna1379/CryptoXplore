@@ -8,20 +8,17 @@ function Banner() {
     <Box 
         component='div'
         sx={{
-            background: "url(./b15.jpg)",
+            backgroundImage: "url(./b15.jpg)",
             backgroundPosition:"center" ,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
         }} >
-      <Container>
-        <Box component='div'
-        sx={{
-            height: 380,
+      <Container style={{height: 380,
             display: "flex",
             flexDirection: "column",
             paddingTop: 5,
-            justifyContent: "space-around",
-        }}>
+            justifyContent: "space-around",}}>
+
         <Box component='div'
         sx={{
             display: "flex",
@@ -53,7 +50,6 @@ function Banner() {
           </Typography>
         </Box>
         <Carousel />
-        </Box>
       </Container>
     </Box>
   );

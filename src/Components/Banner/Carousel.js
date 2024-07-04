@@ -15,11 +15,13 @@ const Carousel = () => {
   const fetchTrendingCoins = async () => {
     const { data } = await axios.get(TrendingCoins(currency));
 
-    console.log(data);
+    //console.log(data);
     setTrending(data);
   };
 
-  useEffect(() => { fetchTrendingCoins();}, [currency]);
+  useEffect(() => { fetchTrendingCoins();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currency]);
    
   
   const items = trending.map((coin) => {

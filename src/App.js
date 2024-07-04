@@ -22,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />}  />
         <Route path="/coins/:id" element={<CoinPage />}  />
+        <Route path="*" element={<Homepage />} />
       </Routes>
       </Box>
       <Aalert/>
