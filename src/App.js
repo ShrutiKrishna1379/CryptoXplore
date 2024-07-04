@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App;
+// "homepage": "https://ShrutiKrishna1379.github.io/CryptoXplore/",
