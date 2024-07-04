@@ -20,8 +20,8 @@ function App() {
         }} >
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage />}  />
-        <Route path="/coins/:id" element={<CoinPage />}  />
+        <Route path="/CryptoXplore" element={<Homepage />}  />
+        <Route path="/CryptoXplore/coins/:id" element={<CoinPage />}  />
         <Route path="*" element={<Homepage />} />
       </Routes>
       </Box>
