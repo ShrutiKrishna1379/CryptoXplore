@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAeeZkpR2flvI3KHd9dY48vuigy_0-1ulc",
-    authDomain: "crypto-xplore.firebaseapp.com",
-    projectId: "crypto-xplore",
-    storageBucket: "crypto-xplore.appspot.com",
-    messagingSenderId: "873919883994",
-    appId: "1:873919883994:web:285810f5dd3f3ebce913e3"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
   };
 
   export default firebaseConfig;
